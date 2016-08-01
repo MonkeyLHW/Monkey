@@ -34,7 +34,7 @@ namespace Monkey
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(172, 217);
+            this.button1.Location = new System.Drawing.Point(155, 220);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -43,7 +43,7 @@ namespace Monkey
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(172, 138);
+            this.comboBox1.Location = new System.Drawing.Point(129, 141);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 1;
@@ -52,7 +52,7 @@ namespace Monkey
             // 
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
-            this.Size = new System.Drawing.Size(457, 348);
+            this.Size = new System.Drawing.Size(392, 410);
             this.Text = "Form1";
             this.ResumeLayout(false);
 
