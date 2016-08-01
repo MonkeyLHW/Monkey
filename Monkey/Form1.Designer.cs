@@ -28,22 +28,14 @@ namespace Monkey
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new Gizmox.WebGUI.Forms.Label();
             this.directorySearcher1 = new System.DirectoryServices.DirectorySearcher();
             this.listBox1 = new Gizmox.WebGUI.Forms.ListBox();
             this.listBox2 = new Gizmox.WebGUI.Forms.ListBox();
             this.label2 = new Gizmox.WebGUI.Forms.Label();
             this.label3 = new Gizmox.WebGUI.Forms.Label();
+            this.listBox3 = new Gizmox.WebGUI.Forms.ListBox();
+            this.button1 = new Gizmox.WebGUI.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(182, 240);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
             // 
             // directorySearcher1
             // 
@@ -53,14 +45,14 @@ namespace Monkey
             // 
             // listBox1
             // 
-            this.listBox1.Location = new System.Drawing.Point(67, 92);
+            this.listBox1.Location = new System.Drawing.Point(70, 118);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(100, 95);
             this.listBox1.TabIndex = 3;
             // 
             // listBox2
             // 
-            this.listBox2.Location = new System.Drawing.Point(235, 101);
+            this.listBox2.Location = new System.Drawing.Point(269, 207);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(100, 95);
             this.listBox2.TabIndex = 4;
@@ -83,13 +75,29 @@ namespace Monkey
             this.label3.TabIndex = 6;
             this.label3.Text = "label3";
             // 
+            // listBox3
+            // 
+            this.listBox3.Location = new System.Drawing.Point(260, 81);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(100, 95);
+            this.listBox3.TabIndex = 7;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(80, 274);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "button1";
+            // 
             // Form1
             // 
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.listBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.label1);
             this.Size = new System.Drawing.Size(392, 410);
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -97,11 +105,12 @@ namespace Monkey
         }
 
         #endregion
-        private Gizmox.WebGUI.Forms.Label label1;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
         private Gizmox.WebGUI.Forms.ListBox listBox1;
         private Gizmox.WebGUI.Forms.ListBox listBox2;
         private Gizmox.WebGUI.Forms.Label label2;
         private Gizmox.WebGUI.Forms.Label label3;
+        private Gizmox.WebGUI.Forms.ListBox listBox3;
+        private Gizmox.WebGUI.Forms.Button button1;
     }
 }
