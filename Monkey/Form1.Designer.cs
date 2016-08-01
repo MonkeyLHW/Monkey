@@ -30,6 +30,8 @@ namespace Monkey
         {
             this.button1 = new Gizmox.WebGUI.Forms.Button();
             this.comboBox1 = new Gizmox.WebGUI.Forms.ComboBox();
+            this.label1 = new Gizmox.WebGUI.Forms.Label();
+            this.listView1 = new Gizmox.WebGUI.Forms.ListView();
             this.SuspendLayout();
             // 
             // button1
@@ -48,8 +50,27 @@ namespace Monkey
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(170, 304);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
+            // 
+            // listView1
+            // 
+            this.listView1.DataMember = null;
+            this.listView1.Location = new System.Drawing.Point(46, 265);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(100, 100);
+            this.listView1.TabIndex = 3;
+            // 
             // Form1
             // 
+            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Size = new System.Drawing.Size(392, 410);
@@ -62,5 +83,7 @@ namespace Monkey
 
         private Gizmox.WebGUI.Forms.Button button1;
         private Gizmox.WebGUI.Forms.ComboBox comboBox1;
+        private Gizmox.WebGUI.Forms.Label label1;
+        private Gizmox.WebGUI.Forms.ListView listView1;
     }
 }
